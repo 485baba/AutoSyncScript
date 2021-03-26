@@ -26,4 +26,3 @@ jobs:
         run: |
           cd ~/js   
           node youthshare.js
-（看懂之后删除这段文字:上方Tsak是仓库里面的文件夹，有就把youthshare.js放进Task文件夹里面，没有直接把youthshare.js放仓库里，删除上方的Task/  完毕）
