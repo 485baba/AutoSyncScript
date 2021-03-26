@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://raw.githubusercontent.com/485baba/AutoSyncScript/main/.github/workflows/youthshare.js
+          git clone https://github.com/485baba/AutoSyncScript/blob/93a42182afcd7b5ecbff9a1affa8c1485e7927dc/youthshare.js
       - name: Use Node.js 14.x
         uses: actions/setup-node@v1
         with:
