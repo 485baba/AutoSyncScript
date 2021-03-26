@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://github.com/485baba/AutoSyncScript.git ~/js
+          git clone https://raw.githubusercontent.com/485baba/AutoSyncScript.github/workflows/youthshare.js 
       - name: Use Node.js 14.x
         uses: actions/setup-node@v1
         with:
@@ -26,3 +26,4 @@ jobs:
         run: |
           cd ~/js   
           node youthshare.js
+（看懂之后删除这段文字:上方Tsak是仓库里面的文件夹，有就把youthshare.js放进Task文件夹里面，没有直接把youthshare.js放仓库里，删除上方的Task/  完毕）
